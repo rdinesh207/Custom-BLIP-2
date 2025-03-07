@@ -59,7 +59,7 @@ The training script performs the following steps:
   The best-performing model is saved during training. For example:
   
   ```python
-  model.save_pretrained("/scratch/rdinesh2/Agro_project/models/blip2_pt", from_pt=True)
+  model.save_pretrained("Path to model folder", from_pt=True)
   ```
 
 ## Inference
